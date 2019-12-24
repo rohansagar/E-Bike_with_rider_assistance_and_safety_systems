@@ -1,4 +1,4 @@
-# IOT_safety_equipped_bicycle
+# IOT_safety_equipped_smartbike
 When it comes to urban cycling, safety is of utmost importance. Most modern automotive vehicles have smart features such 
 as,lane departure warnings and blind spot vehicle detection that help improve their safety. On the other hand, the bicycle 
 industry hasn’t seen considerable advancements in additive safety technologies. On an average, about 721 cyclists were 
