@@ -1,4 +1,4 @@
-## This file is a version of the file available at https://github.com/SurferTim/documentation/blob/6bc583965254fa292a470990c40b145f553f6b34/configuration/wireless/access-point.md
+This file is a version of the file available [ Here ]( https://github.com/SurferTim/documentation/blob/6bc583965254fa292a470990c40b145f553f6b34/configuration/wireless/access-point.md )
 
 ## Setting up a Raspberry Pi as an access point in a standalone network
 
