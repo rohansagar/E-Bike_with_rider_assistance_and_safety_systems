@@ -1,4 +1,4 @@
-# IOT_safety_equipped_smartbike
+# E-Bike_with_rider_assistance_and_safety_systems
 
 #### [Link to youtube video of the presentation about the project](https://youtu.be/Eq_H5E4vFl4)
 
