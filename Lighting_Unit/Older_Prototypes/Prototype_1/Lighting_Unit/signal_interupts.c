@@ -39,10 +39,12 @@ void buttons_ISR()
     uint32_t int_status = GPIOIntStatus(TURN_PORT_BASE, true);
 
     if  ( (int_status & LEFT_TURN_PIN) == LEFT_TURN_PIN){
+        status.right = 0;
         status.left = !(status.left);
     }
 
     if((int_status & RIGHT_TURN_PIN) == RIGHT_TURN_PIN){
+        status.left = 0;
         status.right = !(status.right);
     }
     SysCtlDelay(SysCtlClockGet()/3/10); // for de-bouncing a delay of 1/8th second

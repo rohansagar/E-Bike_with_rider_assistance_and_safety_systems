@@ -26,7 +26,7 @@
 #define     NUM_DISPLAYS            4
 // Note: Make sure that you have all the SSI pins on one Port
 
-#define intensity_value 0x01
+#define intensity_value 0x00
 
 struct{
     bool left;
