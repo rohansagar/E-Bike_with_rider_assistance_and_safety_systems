@@ -32,7 +32,7 @@ and Tiva-C board is used to detect button presses and drive the LED matrix displ
 matrix display using SSI protocal. When no turn signal is triggered, the entire module flashes to provide increased
 visibility.    
 
-<img src="Lighting_Unit/Images/img_1.png" height= "250" width=" 400"><img src="Lighting_Unit/Images/img_2.png" height=" 250" width="400 ">
+<img src="Lighting_Unit/Older_Prototypes/Prototype_1/Images/img_1.png" height= "250" width=" 400"><img src="Lighting_Unit/Older_Prototypes/Prototype_1/Images/img_2.png" height=" 250" width="400 ">
 
 <h2>Electric Assist Module:</h2>  
 The bike is equipped with a motorized rear wheel, throttle, brakes and required electric components to control the motor. 
