@@ -95,12 +95,6 @@ ConfigureUART(void)
     UARTStdioConfig(0, 115200, 16000000);
 }
 
-//*****************************************************************************
-//
-// Initialize FreeRTOS and start the initial set of tasks.
-//
-//*****************************************************************************
-
 
 int main(void)
 {
@@ -115,6 +109,7 @@ int main(void)
     // Create a mutex to guard the UART.
     g_pUARTSemaphore = xSemaphoreCreateMutex();
 
+    //Initialize the LED matrix task that controls the LED display
     LED_martix_task_init();
 
 

@@ -42,11 +42,18 @@ enum {
 } decode_mode;
 
 
-
+/*
+ @brief: This function is used to initialize the LED matrix display.
+ */
 void initialize_matrix(uint8_t);
 void set_control_register(control_register control_reg_temp , uint8_t value);
 void clear_display(void);
 void left(void);
 void right(void);
-void flash(void);
+
+/*
+ @brief: This function in used to flash the LED matrix display.
+ */
+void flash(uint8_t flash_freq);
+
 #endif /* LED_MATRIX_H_ */

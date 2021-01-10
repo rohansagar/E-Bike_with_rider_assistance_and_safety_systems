@@ -174,9 +174,8 @@ void right()
 }
 
 
-void flash(){
+void flash(uint8_t flash_freq){
     uint16_t packet;
-
         for(int row = 1; row<=8;row++){
             GPIOPinWrite(CS_PORT, CS_PIN, 0x00);
             SysCtlDelay(3);
